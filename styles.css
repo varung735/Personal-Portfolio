@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+body{
+    background-color: #131313;
+    color: #fff;
+}
+
+#nav-container{
+    margin-top: 1%;
+    margin-left: 35%;
+    width: 31vw;
+    height: 5vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(182, 208, 226, 0.2);
+    border-radius: 15px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.nav-link:hover{
+    transition: all 0.3s;
+    color: #E21717;
+}
+
+/* Styles for CSS */
+
+#home-sec{
+    height: 100vh;
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-heading{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.sub-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.content{
+    margin-top: 1%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.email{
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+.social-links{
+    margin-top: 1%;
+    display: flex;
+    gap: 16px;
+}
+
+.social-link{
+    height: 40px;
+    width: 40px;
+    filter: invert();
+    cursor: pointer;
+}
+
+/* Styles for about me */
+
+#about-me-sec{
+    padding: 3%;
+    background-color: #131313;
+    color: #ffffff;   
+    border-bottom: 1px solid #fff; 
+}
+
+.intro-heading{
+    margin-bottom: 2%;
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.intro-div{
+    display: flex;
+    align-items: center;
+}
+
+.abs-profile-pic{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 15%;
+}
+
+.abs-intro{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.abs-intro-span{
+    font-weight: 500;
+    color: #E21717;
+}
+
+.intro-text{
+    margin-bottom: 5%;
+}
+
+.intro-btn{
+    padding: 1%;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.intro-btn:hover{
+    transition: all 0.6s;
+    border: 1px solid #E21717;
+    color: #E21717;
+}
+
+/* styles for courses sec */
+
+#courses-sec{
+    padding: 2%;
+}  
+
+.cour-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+/* .cour-div .course-div:nth-child(even){
+    background-color: ;
+} */
+
+.cour-div :last-child{
+    border-bottom: none;
+}
+
+.course-div{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.course-name-div{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #fff;
+}
+
+.course-name{
+    text-align: center;
+    font-weight: 500;
+}
+
+.course-det-div{
+    width: 70%;
+    padding: 1%;
+}
+
+.course-details{
+    margin-bottom: 0.5%;
+}
+
+.course-link{
+    margin-bottom: 0.5%;
+}
+
+.cl-span{
+    color: #E21717;
+}
+
+.certificate{
+    text-decoration: none;
+    color: #E21717;
+}
+
+/* styles for skill sec */
+
+#skills-sec{
+    padding: 2%;
+}
+
+.skills-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skill-div{
+    width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-name{
+    width: 10%;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.skill-bar{
+    height: 1.5em;
+    width: 60%;
+    padding: 0.2%;
+    background-color: #1F1F20;
+}
+
+.skill{
+    height: 100%;
+    /* width: 40%; */
+    background-color: #E21717;
+}
+
+/* styles for projects */
+
+#projects-sec{
+    padding: 2%;
+}
+
+.project-navbar{
+    height: 2.4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project-sect{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-right: 1px solid #fff;
+}
+
+.project-sect:last-child{
+    border:none;
+}
+
+.project-sect:hover{
+    transition: all 0.6s;
+    background-color: #E21717;
+}
+
+.project-active{
+    background-color: #E21717;
+}
+
+.tech-name{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.projects{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.project-card{
+    /* height: 300px; */
+    width: 30%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7px;
+    background-color: #1F1F20;
+    border-radius: 10px;
+}
+
+.card-header{
+    height: 50%;
+}
+
+.project-img{
+    height: 100%;
+    width: 100%;
+}
+
+.link{
+    height: 10%;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: #E21717;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* styles for footer */
+
+#footer-container{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F1F20;
+}
+
+.name{
+    font-size: 3em;
+    font-weight: 500;
+}
