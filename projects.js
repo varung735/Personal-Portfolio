@@ -136,7 +136,81 @@ export const projects = {
             "live": "https://product-design-landing-page-15th.netlify.app/"
         },
     ],
-    "JavaScript": [],
-    "react": [],
+    "JavaScript": [
+        {
+            "id": 1,
+            "tech_used": "js",
+            "screenshot": "./assets/hashnode.svg", 
+            "title": "Color Picker",
+            "description": "This is a color picker website built using HTML, CSS & JS",
+            "github": "https://github.com/varung735/Product-design-landing-page",
+            "live": "https://product-design-landing-page-15th.netlify.app/"
+        },
+        {
+            "id": 2,
+            "tech_used": "js",
+            "screenshot": "./assets/hashnode.svg", 
+            "title": "Music Player",
+            "description": "This is a simple music player built using HTML, CSS & JS",
+            "github": "https://github.com/varung735/Product-design-landing-page",
+            "live": "https://product-design-landing-page-15th.netlify.app/"
+        },
+        {
+            "id": 3,
+            "tech_used": "js",
+            "screenshot": "./assets/hashnode.svg", 
+            "title": "To Do",
+            "description": "This is a simple To Do tracker built using HTML, CSS & JS",
+            "github": "https://github.com/varung735/Product-design-landing-page",
+            "live": "https://product-design-landing-page-15th.netlify.app/"
+        },
+        {
+            "id": 4,
+            "tech_used": "js",
+            "screenshot": "./assets/hashnode.svg", 
+            "title": "Loan Calculator",
+            "description": "This is a loan calculator built using HTML, CSS & JS",
+            "github": "https://github.com/varung735/Product-design-landing-page",
+            "live": "https://product-design-landing-page-15th.netlify.app/"
+        },
+        {
+            "id": 5,
+            "tech_used": "js",
+            "screenshot": "./assets/hashnode.svg", 
+            "title": "Memory Game",
+            "description": "This is a Memory Game built using HTML, CSS & JS",
+            "github": "https://github.com/varung735/Product-design-landing-page",
+            "live": "https://product-design-landing-page-15th.netlify.app/"
+        },
+        {
+            "id": 5,
+            "tech_used": "js",
+            "screenshot": "./assets/hashnode.svg", 
+            "title": "Theme Changer",
+            "description": "You can change your color of your page from light theme to dark",
+            "github": "https://github.com/varung735/Product-design-landing-page",
+            "live": "https://product-design-landing-page-15th.netlify.app/"
+        }
+    ],
+    "react": [
+        {
+            "id": 1,
+            "tech_used": "react",
+            "screenshot": "./assets/screenshots/newsify.png", 
+            "title": "Newsify",
+            "description": "It is a simple news application built using react which takes data from NewsData.io",
+            "github": "https://github.com/varung735/news-app-react",
+            "live": "https://news-app-244.netlify.app/"
+        },
+        {
+            "id": 1,
+            "tech_used": "react",
+            "screenshot": "./assets/screenshots/ims-frontend.png", 
+            "title": "Inventory Management System",
+            "description": "It is a complete end-to-end application built for keeping track of business processes.",
+            "github": "https://github.com/varung735/Inventory-Mangement-System_Front-End",
+            "live": "https://ims-frontend.netlify.app/"
+        }
+    ],
     "backend": []
 }

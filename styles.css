@@ -327,7 +327,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
     gap: 7px;
     background-color: #1F1F20;
     border-radius: 10px;
