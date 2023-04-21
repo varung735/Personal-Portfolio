@@ -3,7 +3,7 @@ export const projects = {
         {
             "id": 0,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/StreetStyleLandingPage.png", 
             "title": "Street Style Landing Page",
             "description": "Street style landing page with basic html css",
             "github": "https://github.com/varung735/street_style_landing_page",
@@ -12,7 +12,7 @@ export const projects = {
         {
             "id": 1,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/FoodRestaurantHomePage.png", 
             "title": "Food Restaurant Home Page",
             "description": "Home Page for some restaurant with basic html css",
             "github": "https://github.com/varung735/Food_restaurant_home_page",
@@ -21,7 +21,7 @@ export const projects = {
         {
             "id": 2,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/DigitalMarketingHomePage.png", 
             "title": "Digital Marketing Home Page",
             "description": "Home Page for some Digital Marketing Firm",
             "github": "https://github.com/varung735/Digital-Marketing-Home-Page",
@@ -30,7 +30,7 @@ export const projects = {
         {
             "id": 3,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/CryptoLandingPage.png", 
             "title": "Crypto Landing Page",
             "description": "landing page for Crypto Company with basic html css",
             "github": "https://github.com/varung735/Crypto-Landing-Page",
@@ -39,7 +39,7 @@ export const projects = {
         {
             "id": 4,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/PlantHomePage.png", 
             "title": "Plant Home Page",
             "description": "Home Page for Some Nursery with basic html css",
             "github": "https://github.com/varung735/Plant-Home-Page",
@@ -48,8 +48,8 @@ export const projects = {
         {
             "id": 5,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
-            "title": "Crypto Landing Page",
+            "screenshot": "./assets/screenshots/WebDesignLandingPage.png", 
+            "title": "Web Design Landing Page",
             "description": "landing page for Crypto Company with basic html css",
             "github": "https://github.com/varung735/Crypto-Landing-Page",
             "live": "https://crypto-landing-page-5th.netlify.app/"
@@ -57,7 +57,7 @@ export const projects = {
         {
             "id": 6,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/ProductHomePage.png", 
             "title": "Product Home Page",
             "description": "Page to display product and its features with basic html css",
             "github": "https://github.com/varung735/Product-Home-Page",
@@ -66,70 +66,52 @@ export const projects = {
         {
             "id": 7,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
-            "title": "Web Design Landing Page",
-            "description": "Landing Page for some comapny which offers web design as service with basic html css",
-            "github": "https://github.com/varung735/Web-Design-Landing-Page",
-            "live": "https://web-design-proj.netlify.app/"
-        },
-        {
-            "id": 8,
-            "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
-            "title": "Product Home Page",
-            "description": "Page to display product and its features with basic html css",
-            "github": "https://github.com/varung735/Product-Home-Page",
-            "live": "https://product-home7.netlify.app/"
-        },
-        {
-            "id": 9,
-            "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/DevelopersLandingPage.png", 
             "title": "Developers Landing Page",
             "description": "Home Page which offers API access for some service with basic html css",
             "github": "https://github.com/varung735/live-project-9",
             "live": "https://api-home-page.netlify.app/"
         },
         {
-            "id": 10,
+            "id": 8,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/InteriorDesignLandingPage.png", 
             "title": "Interior Design Landing Page",
             "description": "Landing Page for some Interior Descorating Firm with basic html css",
             "github": "https://github.com/varung735/Interior_Decor",
             "live": "https://interior-decor-10th.netlify.app/"
         },
         {
-            "id": 11,
+            "id": 9,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/HostingLandingPage.png", 
             "title": "Hosting Landing Page",
             "description": "Landing Page for some company which provides website hosting as service",
             "github": "https://github.com/varung735/hosting_landing_page",
             "live": "https://hosting-landing-page-12.netlify.app/"
         },
         {
-            "id": 12,
+            "id": 10,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/SASSLandingPage.png", 
             "title": "SAAS LAnding Page",
             "description": "Landing Page for a SAAS comapny or firm",
             "github": "https://github.com/varung735/SASS-Landing-Page",
             "live": "https://sass-landing-page-13th.netlify.app/"
         },
         {
-            "id": 13,
+            "id": 11,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/DanceHomePage.png", 
             "title": "Dance Home Page",
             "description": "Landing Page for a dance academy",
             "github": "https://github.com/varung735/Dance-Landing-Page",
             "live": "https://dance-landing14.netlify.app/"
         },
         {
-            "id": 14,
+            "id": 12,
             "tech_used": "html",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/ProductDisplayLandingPage.png", 
             "title": "Product Design Landing Page",
             "description": "Personal portfolio page for a product designer",
             "github": "https://github.com/varung735/Product-design-landing-page",

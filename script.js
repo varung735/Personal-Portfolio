@@ -2,6 +2,10 @@ import {projects} from "./projects.js";
 
 const projectsDiv = document.querySelector(".projects");
 const projectSect = document.querySelectorAll(".project-sect");
+const certificateLink = document.querySelectorAll(".certificate");
+const modalWindow = document.querySelector(".modal-window");
+const modalImg = document.querySelector(".modal-image");
+const crossImg = document.querySelector(".mh-img");
 
 //take the project details from project object and display it on page
 const appendProjects = (screenshot, title, desc, github, live) => {
@@ -55,11 +59,6 @@ const removeProjects = () => {
         projectsDiv.removeChild(projectsDiv.firstChild);
     }
 }
-
-//adds the active class to the project nav element
-// const addActiveClass = (skill, selectedSkill) => {
-    
-// }
 
 //removes the active class to the project nav element
 const removeActiveClass = (skill) => {
@@ -118,6 +117,31 @@ const displayProjects = (skill) => {
 
 displayProjects();
 
+//to select which image to be displayed in modal window
+const displayCertificates = (id) => {
+    let src;
+    switch (id) {
+        case "c": {
+            src = "./certificates/C-cert.jpg";
+            break;
+        }    
+        case "java": {
+            src = "./certificates/java-cert.jpg";
+            break;
+        }
+        case "android": {
+            src = "./certificates/android-cert.jpg";
+            break;
+        }
+        case "mean": {
+            src = "./certificates/full-stack-cert.jpg";
+            break;
+        }
+    }
+
+    modalImg.setAttribute('src', src);
+}
+
 projectSect.forEach((project) => {
     project.addEventListener('click', () => {
         let skill = project.classList[1];
@@ -126,5 +150,16 @@ projectSect.forEach((project) => {
     })
 })
 
+// to open modal window
+certificateLink.forEach((certificate) => {
+    certificate.addEventListener('click', () => {
+        let id = certificate.getAttribute('id');
+        modalWindow.classList.remove("hidden");
+        console.log(id);
+        displayCertificates(id);
+    });
+});
 
+//to close the modal window
+crossImg.addEventListener('click', () => {modalWindow.classList.add("hidden")});
 

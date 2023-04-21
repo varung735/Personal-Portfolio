@@ -226,6 +226,42 @@ body{
 .certificate{
     text-decoration: none;
     color: #E21717;
+    cursor: pointer;
+}
+
+/* styles ofor modal window */
+
+.modal-window{
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    height: 600px;
+    width: 80%;
+    background-color: #1F1F20;
+}
+
+.modal-header{
+    padding: 0.3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mh-img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    filter: invert();
+}
+
+.modal-heading{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.modal-image{
+    height: 100%;
+    width: 100%;
 }
 
 /* styles for skill sec */
