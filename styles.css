@@ -404,3 +404,106 @@ body{
     font-size: 3em;
     font-weight: 500;
 }
+
+/* Styles for a mobile screen */
+
+@media screen and (max-width: 1230px) and (min-width: 200px){
+
+    #nav-container{
+        display: none;
+    }
+
+    /* styles for home sec */
+
+    .bg-overlay{
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .name-heading{
+        line-height: 1.1em;
+        font-weight: 300;
+    }
+
+    .sub-heading{
+        margin-top: 6%;
+        margin-bottom: 6%;
+        font-size: 2em;
+        font-weight: 400;
+    }
+
+    .content{
+        font-size: 1.3em;
+    }
+
+    .social-links{
+        margin-top: 7%;
+    }
+
+    /* styles for about me section */
+
+    .intro-heading{
+        font-weight: 300;
+    }
+
+    .abs-intro{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 10%;
+    }
+
+    .intro-text{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        font-size: 1.2em;
+    }
+
+    .intro-btn{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 4%;
+    }
+
+    /* styles for courses */
+
+    /* styles for modal */
+
+    .modal-window{
+        position: fixed;
+        top: 30%;
+        left: -9.5%;
+        rotate: 90deg;
+        width: 450px;
+        height: 300px;
+    }
+
+    /* styles for skills section */
+
+    .skill-div{
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill-name{
+        align-self: flex-start;
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    .skill-bar{
+        width: 100%;
+        align-self: flex-start;
+    }
+
+    /* styles for project section */
+
+    .projects{
+        padding: 1%;
+    }
+
+    .project-card{
+        width: 100%;
+    }
+}

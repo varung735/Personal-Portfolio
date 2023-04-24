@@ -196,3 +196,8 @@ export const projects = {
     ],
     "backend": []
 }
+
+// the courses which i have completed
+export const courses = {
+
+}

@@ -30,7 +30,7 @@
     <section id="home-sec">
 
         <!-- content div -->
-        <div class="content-div">
+        <div class="content-div bg-overlay">
             <!-- Heading -->
             <h1 class="name-heading">This is Varun Gupta.</h1>
             <!-- Sub-Heading -->
@@ -81,7 +81,8 @@
                     <span class="abs-intro-span">Don't forget to take a look on my resume.</span>
                     Cheers.
                 </p>
-                <a href="" class="intro-btn">look at resume</a>
+                <a href="https://drive.google.com/file/d/1O1P08t8p8MXnJtDuGIHpMBrCZJw66oJ-/view?usp=sharing" 
+                class="intro-btn" target="_blank">look at resume</a>
             </div>
 
         </div>
@@ -360,9 +361,9 @@
             let navbar = document.getElementById("nav-container");
             let scrollValue = window.scrollY;
 
-            if (scrollValue > 250) {
+            if (scrollValue > 250 && screen.width >= 1230) {
                 navbar.style.display = 'none';
-            } else if (scrollValue >= 100) {
+            } else if (scrollValue >= 100 && screen.width >= 1230) {
                 navbar.style.display = 'flex';
             }
         });

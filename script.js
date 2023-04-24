@@ -142,6 +142,7 @@ const displayCertificates = (id) => {
     modalImg.setAttribute('src', src);
 }
 
+// for the links to be working in projects cards
 projectSect.forEach((project) => {
     project.addEventListener('click', () => {
         let skill = project.classList[1];
@@ -155,7 +156,6 @@ certificateLink.forEach((certificate) => {
     certificate.addEventListener('click', () => {
         let id = certificate.getAttribute('id');
         modalWindow.classList.remove("hidden");
-        console.log(id);
         displayCertificates(id);
     });
 });
