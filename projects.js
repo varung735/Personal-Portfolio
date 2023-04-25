@@ -150,8 +150,8 @@ export const projects = {
             "id": 4,
             "tech_used": "js",
             "screenshot": "./assets/hashnode.svg", 
-            "title": "Loan Calculator",
-            "description": "This is a loan calculator built using HTML, CSS & JS",
+            "title": "Random Quote Generator",
+            "description": "It is a random quote generator which utilizes third party API",
             "github": "https://github.com/varung735/Product-design-landing-page",
             "live": "https://product-design-landing-page-15th.netlify.app/"
         },
@@ -159,8 +159,8 @@ export const projects = {
             "id": 5,
             "tech_used": "js",
             "screenshot": "./assets/hashnode.svg", 
-            "title": "Memory Game",
-            "description": "This is a Memory Game built using HTML, CSS & JS",
+            "title": "Calculator App",
+            "description": "This is a simple calculator built using HTML, CSS & JS",
             "github": "https://github.com/varung735/Product-design-landing-page",
             "live": "https://product-design-landing-page-15th.netlify.app/"
         },
