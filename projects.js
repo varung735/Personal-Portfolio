@@ -122,56 +122,56 @@ export const projects = {
         {
             "id": 1,
             "tech_used": "js",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/color-picker.png", 
             "title": "Color Picker",
             "description": "This is a color picker website built using HTML, CSS & JS",
-            "github": "https://github.com/varung735/Product-design-landing-page",
-            "live": "https://product-design-landing-page-15th.netlify.app/"
+            "github": "https://github.com/varung735/Color_Picker",
+            "live": "https://hex-code-for-color.netlify.app/"
         },
         {
             "id": 2,
             "tech_used": "js",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/Music_Player.png", 
             "title": "Music Player",
             "description": "This is a simple music player built using HTML, CSS & JS",
-            "github": "https://github.com/varung735/Product-design-landing-page",
-            "live": "https://product-design-landing-page-15th.netlify.app/"
+            "github": "https://github.com/varung735/Music_Player",
+            "live": "https://mp-js.netlify.app/"
         },
         {
             "id": 3,
             "tech_used": "js",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/to-do.png", 
             "title": "To Do",
             "description": "This is a simple To Do tracker built using HTML, CSS & JS",
-            "github": "https://github.com/varung735/Product-design-landing-page",
-            "live": "https://product-design-landing-page-15th.netlify.app/"
+            "github": "https://github.com/varung735/To_Do",
+            "live": "https://todo-js-23.netlify.app/"
         },
         {
             "id": 4,
             "tech_used": "js",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/random_quote_gen.png", 
             "title": "Random Quote Generator",
             "description": "It is a random quote generator which utilizes third party API",
-            "github": "https://github.com/varung735/Product-design-landing-page",
-            "live": "https://product-design-landing-page-15th.netlify.app/"
+            "github": "https://github.com/varung735/Random_Quote_Gen",
+            "live": "https://random-quote-gen-js.netlify.app/"
         },
         {
             "id": 5,
             "tech_used": "js",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/calculator.png", 
             "title": "Calculator App",
             "description": "This is a simple calculator built using HTML, CSS & JS",
-            "github": "https://github.com/varung735/Product-design-landing-page",
-            "live": "https://product-design-landing-page-15th.netlify.app/"
+            "github": "https://github.com/varung735/Calculator",
+            "live": "https://calcultor-js.netlify.app/"
         },
         {
             "id": 5,
             "tech_used": "js",
-            "screenshot": "./assets/hashnode.svg", 
+            "screenshot": "./assets/screenshots/Theme_Changer.png", 
             "title": "Theme Changer",
             "description": "You can change your color of your page from light theme to dark",
-            "github": "https://github.com/varung735/Product-design-landing-page",
-            "live": "https://product-design-landing-page-15th.netlify.app/"
+            "github": "https://github.com/varung735/Theme_Changer",
+            "live": "https://themechangerjs.netlify.app/"
         }
     ],
     "react": [
