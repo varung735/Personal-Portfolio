@@ -137,6 +137,10 @@ const displayCertificates = (id) => {
             src = "./certificates/full-stack-cert.jpg";
             break;
         }
+        case "git": {
+            src = "./certificates/git-cert.png";
+            break;
+        }
     }
 
     modalImg.setAttribute('src', src);
