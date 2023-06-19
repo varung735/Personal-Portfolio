@@ -141,6 +141,10 @@ const displayCertificates = (id) => {
             src = "./certificates/git-cert.png";
             break;
         }
+        case "ts": {
+            src = "./certificates/TypeScript-cert.png";
+            break;
+        }
     }
 
     modalImg.setAttribute('src', src);
