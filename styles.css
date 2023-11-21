@@ -19,7 +19,7 @@ body{
 #nav-container{
     margin-top: 1%;
     margin-left: 35%;
-    width: 31vw;
+    width: 34vw;
     height: 5vh;
     position: fixed;
     display: flex;
@@ -162,6 +162,14 @@ body{
     transition: all 0.6s;
     border: 1px solid #E21717;
     color: #E21717;
+}
+
+/* styles for experience sec */
+
+.experience{
+    text-decoration: none;
+    color: #E21717;
+    cursor: pointer;
 }
 
 /* styles for courses sec */
